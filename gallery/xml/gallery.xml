@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<galleryClass>
+
+	<images2D src="../gallery/2D/1_thumb.jpg" title="Yorkshire Illustration"/>
+	<images2D src="../gallery/2D/2_thumb.jpg" title="Concept Environment"/>
+	<images2D src="../gallery/2D/3_thumb.jpg" title="Photography:The Mantis"/>
+	<images2D src="../gallery/2D/4_thumb.jpg" title="The Night Watch"/>
+	
+	<images3D src="../gallery/3D/1_thumb.jpg" title="Bedroom Viz Night"/>
+	<images3D src="../gallery/3D/2_thumb.jpg" title="Bedroom Viz Day"/>
+	<images3D src="../gallery/3D/4_thumb.jpg" title="Shine On"/>
+	<images3D src="../gallery/3D/5_thumb.jpg" title="Optimus Store"/>
+</galleryClass>
