@@ -1,0 +1,9 @@
+﻿<span>Title:</span>
+Optimus store previz
+</br>
+<span>Sotware:</span>
+3ds Max; MentalRay
+</br></br></br>
+<span>Description</span></br></br>
+While I worked at EURO RSCG, I had to create fast previsualizations of ongoing projects. The purpose of those images was to give the clients a visual idea about design decisions and project development.</br>
+This is one of those images.

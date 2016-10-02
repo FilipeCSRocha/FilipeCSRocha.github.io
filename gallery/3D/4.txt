@@ -1,0 +1,10 @@
+﻿<span>Title:</span>
+Shine On
+</br>
+<span>Sotware:</span>
+3ds Max; MentalRay; Photoshop
+</br></br></br>
+<span>Description</span></br></br>
+This image was created for an online thematic contest.</br></br>
+The step-by-step on how this image was created can be found here<a href="http://www.pxleyes.com/guide/48401/the-making-of-Shine-on.html" target="_blank">-->[SBS]</a></br></br>
+I also created a tutorial on camera-map-per-pixel for the same website, if you're curious about the tutorial, it's available here<a href="http://www.pxleyes.com/tutorial/3ds-max/2570/Create-a-3D-environment-From-a-Normal-Photo.html" target="_blank">-->[Tutorial]</a>
