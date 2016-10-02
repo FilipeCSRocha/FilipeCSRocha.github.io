@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento sem título</title>
+<script src="../css/myScripts.js"></script>
+<link href="../css/portfolioStylesheet.css" rel="stylesheet" type="text/css"></link>
+</head>
+<body>
+<div id="contact">
+<div id="googleMap" title="Map"></div>
+<script>
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.4345, -0.1592),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
+}
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ8ANW_7ZN9b87HxU7nodXM1Twm8bkBzI&callback=myMap"
+type="text/javascript"></script>
+<p id="contactText">
+<span>Adress:</span> Dafforne Road, SW london
+<br />
+<span>Phone:</span> Available soon
+<br />
+<span>Email:</span><a href=" mailto:Filipecsrocha@gmail.com">Filipecsrocha@gmail.com</a>
+</p>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Gallery</title>
+<link rel="stylesheet" href="../css/dejavuserif_bold/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="../css/dejavuserif_regular/stylesheet.css" type="text/css" charset="utf-8" />
+<link href="../css/portfolioStylesheet.css" rel="stylesheet" type="text/css"></link>
+<script src="../gallery/myGalleryScript.js"></script>
+</head>
+<body>
+<div id="btnContainer">
+<p class="gallery_btn" id="images2D" onclick="changeImages(this)">2D IMAGES</p>
+<p>/</p>
+<p class="gallery_btn" id="images3D" onclick="changeImages(this)">3D IMAGES</p>
+</div>
+<div id="imgInfo">
+<p id="instructions">Click the images to drag, zoom and to display image information.</p>
+<p id="loadedInfo"></p>
+</div>
+<div id="galleryContainer"></div>
+</body>
+</html>
