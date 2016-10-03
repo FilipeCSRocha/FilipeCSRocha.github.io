@@ -143,8 +143,8 @@ function _move_elem_touch(e) {
     x_pos = document.all ? window.event.touches[0].pageX : e.pageX;
     y_pos = document.all ? window.event.touches[0].pageY : e.pageY;
     if (selected !== null) {
-        selected.style.left = (x_pos - x_elem) + 'px';
-        selected.style.top = (y_pos - y_elem) + 'px';
+        selected.style.left = (x_pos) + 'px';
+        selected.style.top = (y_pos) + 'px';
     }
 }
 function _destroy() {
@@ -188,3 +188,4 @@ function removeFullscreen(){
 document.onmousemove = _move_elem;
 document.ontouchmove=_move_elem_touch;
 document.onmouseup = _destroy;
+document.ontouchend=_destroy;
