@@ -188,7 +188,7 @@ li{
 #refDnlds{
 	position: absolute;
 	width:25%;
-	min-width:20%;
+	min-width:50px;
 	height:30%;
 	right:0;
 	bottom:0;
