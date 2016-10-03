@@ -7,7 +7,8 @@ body{
 	}
 .fb-like{
 	position:relative;
-	top:100px;
+	display:inline
+	top:50px;
 }
 #main_container{
 	position:absolute;
