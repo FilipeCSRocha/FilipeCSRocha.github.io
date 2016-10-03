@@ -135,6 +135,14 @@ function _move_elem(e) {
         selected.style.top = (y_pos - y_elem) + 'px';
     }
 }
+function _move_elem_touch(e) {
+    x_pos = document.all ? window.event.touches[0].pageX : e.pageX;
+    y_pos = document.all ? window.event.touches[0].pageY : e.pageY;
+    if (selected !== null) {
+        selected.style.left = (x_pos - x_elem) + 'px';
+        selected.style.top = (y_pos - y_elem) + 'px';
+    }
+}
 function _destroy() {
     selected = null;
 }
@@ -174,4 +182,5 @@ function removeFullscreen(){
 	
 	}
 document.onmousemove = _move_elem;
+document.ontouchmove=_move_elem_touch;
 document.onmouseup = _destroy;
