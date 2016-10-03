@@ -74,6 +74,10 @@ function imageGallery(xml) {
 				_drag_init(this);
 				return false;
 			};
+			polaroidFrame.ontouchmove = function () {
+				_drag_init(this);
+				return false;
+			};
 			document.getElementById("galleryContainer").appendChild(polaroidFrame);
 			document.getElementById("instructions").style.visibility="visible";
 			document.getElementById("loadedInfo").style.visibility="hidden";
@@ -128,15 +132,12 @@ xhttp.send();
 	
 }
 function _move_elem(e) {
-	
-  
     x_pos = document.all ? window.event.clientX : e.pageX;
     y_pos = document.all ? window.event.clientY : e.pageY;
     if (selected !== null) {
         selected.style.left = (x_pos - x_elem) + 'px';
         selected.style.top = (y_pos - y_elem) + 'px';
     }
-  
 }
 function _destroy() {
     selected = null;
@@ -177,4 +178,6 @@ function removeFullscreen(){
 	
 	}
 document.onmousemove = _move_elem;
+document.ontouchmove=_move_elem;
 document.onmouseup = _destroy;
+document.ontouchend = _destroy;
