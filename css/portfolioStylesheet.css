@@ -61,7 +61,7 @@ body{
 	min-width:360px;
 	height:85%;
 	right:30px;
-	margin-top:80px;
+	margin-top:60px;
 	-webkit-transition: width 0.4s  ease-in-out; /* Safari */
     transition: width 0.4s ease-in-out;
 	display:block;
