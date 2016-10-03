@@ -5,6 +5,9 @@ body{
 	border:0;
 	margin:0;
 	}
+.fb-like{
+position:relative;
+}
 #main_container{
 	position:absolute;
 	background-image:url(../images_videos/bgImg/nightcam003.jpg);
