@@ -11,7 +11,7 @@ function changeContent(content){
 			document.getElementById("Main_Contents").style.position="absolute";
 		   document.getElementById("Main_Contents").style.right="30px";
 		   document.getElementById("Main_Contents").style.left="auto";
-		   document.getElementById("Main_Contents").style.marginTop="80px";
+		  
 		   setTimeout(function() {document.getElementById("Main_Contents").src="html/home.html";},200); 
 		   btsPressed[1].style.textDecoration="underline";
 		   btsPressed[2].style.textDecoration="none";
@@ -25,7 +25,7 @@ function changeContent(content){
 		   document.getElementById("Main_Contents").style.position="absolute";
 		  document.getElementById("Main_Contents").style.right="30px";
 		   document.getElementById("Main_Contents").style.left="auto";
-		   document.getElementById("Main_Contents").style.marginTop="80px";
+		  
 		   setTimeout(function() {document.getElementById("Main_Contents").src="html/about.html";},200); 
 		   btsPressed[1].style.textDecoration="none";
 		   btsPressed[2].style.textDecoration="underline";
@@ -39,7 +39,7 @@ function changeContent(content){
 		  document.getElementById("Main_Contents").style.right="30px";
 		   document.getElementById("Main_Contents").style.left="auto";
 			document.getElementById("Main_Contents").style.width="95%";
-		   document.getElementById("Main_Contents").style.marginTop="80px";
+		  
 			btsPressed[1].style.textDecoration="none";
 		   btsPressed[2].style.textDecoration="none";
 		   btsPressed[3].style.textDecoration="underline";
@@ -51,7 +51,7 @@ function changeContent(content){
 		   document.getElementById("Main_Contents").style.position="absolute";
 		   document.getElementById("Main_Contents").style.right="30px";
 		   document.getElementById("Main_Contents").style.left="auto";
-		   document.getElementById("Main_Contents").style.marginTop="80px";
+		
 		   btsPressed[1].style.textDecoration="none";
 		   btsPressed[2].style.textDecoration="none";
 		   btsPressed[3].style.textDecoration="none";
@@ -63,7 +63,7 @@ function changeContent(content){
 			document.getElementById("Main_Contents").style.position="absolute";
 		   document.getElementById("Main_Contents").style.right="30px";
 		   document.getElementById("Main_Contents").style.left="auto";
-		   document.getElementById("Main_Contents").style.marginTop="80px";
+	
 		    btsPressed[1].style.textDecoration="underline";
 		   btsPressed[2].style.textDecoration="none";
 		   btsPressed[3].style.textDecoration="none";
