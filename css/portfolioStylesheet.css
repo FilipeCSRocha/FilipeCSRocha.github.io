@@ -11,7 +11,6 @@ body{
 	background-size:cover;
 	height:100%;
 	width:100%;
-	display:inline-block;
 	overflow:hidden;
 	}
 #MyName{
@@ -54,7 +53,7 @@ body{
 	border:solid white thin;
 	width:31%;
 	min-width:360px;
-	height:85%;
+	height:80%;
 	right:30px;
 	margin-top:80px;
 	-webkit-transition: width 0.4s  ease-in-out; /* Safari */
@@ -151,6 +150,7 @@ li{
 	border:0;
 	border-bottom:thin solid white;
 	border-left:thin solid white;
+	overflow:hidden;
 	z-index:1;
 	
 	
@@ -188,6 +188,7 @@ li{
 	border:thin solid white;
 	border-bottom:none;
 	border-right:none;
+	overflow:auto;
 	
 	}
 #refDnlds p, a{color:white;
@@ -207,12 +208,13 @@ li{
 /*Gallery*/
 #galleryContainer{
 	position:absolute;
-	overflow:hidden;
+	overflow:auto;
 	right:0;
 	top:0;
 	width:60%;
 	height:100%;
 	border-left:thin solid white;
+	z-index:1;
 	}
 #btnContainer{
 	
@@ -244,6 +246,7 @@ li{
 	height:75%;
 	margin:2.5%;
 	margin-top:100px;
+	overflow:auto;
 	
 	}
 #imgInfo p{
