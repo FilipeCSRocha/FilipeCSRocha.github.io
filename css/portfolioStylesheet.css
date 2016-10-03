@@ -208,7 +208,7 @@ li{
 /*Gallery*/
 #galleryContainer{
 	position:absolute;
-	overflow:auto;
+	overflow:hidden;
 	right:0;
 	top:0;
 	width:60%;
