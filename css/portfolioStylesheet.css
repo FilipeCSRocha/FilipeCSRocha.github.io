@@ -53,7 +53,7 @@ body{
 	border:solid white thin;
 	width:31%;
 	min-width:360px;
-	height:80%;
+	height:85%;
 	right:30px;
 	margin-top:80px;
 	-webkit-transition: width 0.4s  ease-in-out; /* Safari */
