@@ -9,7 +9,8 @@ body{
 	position:relative;
 	display:inline;
 	top:50px;
-	left:250px;
+	left:200px;
+	width:50px;
 }
 #main_container{
 	position:absolute;
