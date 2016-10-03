@@ -74,7 +74,7 @@ function imageGallery(xml) {
 				_drag_init(this);
 				return false;
 			};
-			polaroidFrame.ontouchstart = function () {
+			polaroidFrame.ontouchmove = function () {
 				_drag_init(this);
 				return false;
 			};
@@ -178,6 +178,4 @@ function removeFullscreen(){
 	
 	}
 document.onmousemove = _move_elem;
-document.ontouchmove = _move_elem;
 document.onmouseup = _destroy;
-document.ontouchend = _destroy;
