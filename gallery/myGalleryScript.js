@@ -74,10 +74,6 @@ function imageGallery(xml) {
 				_drag_init(this);
 				return false;
 			};
-			polaroidFrame.ontouchmove = function () {
-				_drag_init(this);
-				return false;
-			};
 			document.getElementById("galleryContainer").appendChild(polaroidFrame);
 			document.getElementById("instructions").style.visibility="visible";
 			document.getElementById("loadedInfo").style.visibility="hidden";
@@ -111,8 +107,8 @@ function _drag_init(elem) {
 	var decriptionPath=clickFrame.src.replace("_thumb.jpg",".txt")
 	cont.appendChild(elem);
 	clickFrame.onclick=fullScreen;
-    	x_elem = x_pos - selected.offsetLeft;
-    	y_elem = y_pos - selected.offsetTop;
+    x_elem = x_pos - selected.offsetLeft;
+    y_elem = y_pos - selected.offsetTop;
 	selected.style.transform="scale(1.3,1.3)";
 	selected.style.WebkitTransform="scale(1.3,1.3)";
 	selected.style.MozTransform="scale(1.3,1.3)";
@@ -178,6 +174,4 @@ function removeFullscreen(){
 	
 	}
 document.onmousemove = _move_elem;
-document.ontouchmove=_move_elem;
 document.onmouseup = _destroy;
-document.ontouchend = _destroy;
