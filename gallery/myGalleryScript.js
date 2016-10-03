@@ -74,7 +74,7 @@ function imageGallery(xml) {
 				_drag_init(this);
 				return false;
 			};
-			polaroidFrame.ontouchmove = function () {
+			polaroidFrame.ontouchstart = function () {
 				_drag_init(this);
 				return false;
 			};
