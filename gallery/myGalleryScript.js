@@ -180,3 +180,4 @@ function removeFullscreen(){
 document.onmousemove = _move_elem;
 document.ontouchmove=_move_elem;
 document.onmouseup = _destroy;
+document.ontouchend = _destroy;
