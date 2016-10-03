@@ -323,8 +323,9 @@ li{
 }
 #googleMap{
 	border:thin solid black;
-	width:350px;
-	height:350px;
+	width:80%;
+	min-width:250px;
+	min-height:250px;
 	margin:auto;
 	margin-top:25px;
 	}
