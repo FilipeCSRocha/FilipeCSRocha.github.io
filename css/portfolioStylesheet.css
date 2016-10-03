@@ -7,7 +7,7 @@ body{
 	}
 .fb-like{
 	position:relative;
-display:inline;
+	top:100px;
 }
 #main_container{
 	position:absolute;
@@ -19,6 +19,7 @@ display:inline;
 	}
 #MyName{
 	position:absolute;
+	display:inline;
 	font-family:dejavu_serifbook;
 	font-size:16pt;
 	color:#FC0;
