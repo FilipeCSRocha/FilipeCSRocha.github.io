@@ -7,7 +7,7 @@ body{
 	}
 .fb-like{
 	position:relative;
-	display:inline;
+	display:inline-block;
 	top:30px;
 	left:240px;
 }
@@ -40,7 +40,7 @@ body{
 	color:white;
 	font-size:9pt;
 	right:35px;
-	margin-top:20px;
+	margin-top:10px;
 	}
 #main_btn_container p{
 	display:inline;
