@@ -74,6 +74,10 @@ function imageGallery(xml) {
 				_drag_init(this);
 				return false;
 			};
+			polaroidFrame.ontouchstart = function () {
+				_drag_init(this);
+				return false;
+			};
 			document.getElementById("galleryContainer").appendChild(polaroidFrame);
 			document.getElementById("instructions").style.visibility="visible";
 			document.getElementById("loadedInfo").style.visibility="hidden";
