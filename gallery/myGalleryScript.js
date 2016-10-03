@@ -1,3 +1,10 @@
+var body = document.querySelector('body'),
+    is_touch_supported = ('ontouchstart' in window) ? true : false,
+    EVENTS = {
+      POINTER_DOWN : is_touch_supported ? 'touchstart' : 'mousedown',
+      POINTER_UP   : is_touch_supported ? 'touchend'   : 'mouseup',
+      POINTER_MOVE : is_touch_supported ? 'touchmove'  : 'mousemove'
+    };
 var imageType="";
 var selected = null,
     x_pos = 0, y_pos = 0,
@@ -132,12 +139,22 @@ xhttp.send();
 	
 }
 function _move_elem(e) {
+	body.addEventListener(EVENTS.POINTER_MOVE, function (e) {
+  e.preventDefault();
+
+  // normalize event so you can use e.offset X/Y
+  if(is_touch_supported){
+    e = e.changedTouches[0];
+    e.offsetX = e.pageX - e.target.offsetLeft;
+    e.offsetY = e.pageY - e.target.offsetTop;
+  }else{
     x_pos = document.all ? window.event.clientX : e.pageX;
     y_pos = document.all ? window.event.clientY : e.pageY;
     if (selected !== null) {
         selected.style.left = (x_pos - x_elem) + 'px';
         selected.style.top = (y_pos - y_elem) + 'px';
     }
+  }
 }
 function _destroy() {
     selected = null;
