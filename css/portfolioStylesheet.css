@@ -23,23 +23,23 @@ body{
 #MyName{
 	position:absolute;
 	display:inline;
-	font-family:dejavu_serifbook;
+	font-family:'Khula', sans-serif;
 	font-size:16pt;
-	color:#FC0;
+	color:#DDD;
 	margin-top:20px;
 	margin-left:30px;
 	max-width:200px;
 	}
 #job{
-	color:#aaa;
+	color:#AAA;
 	font-size:11pt;
 	margin-top:-7px;
 	}
 #main_btn_container{
 	position:absolute;
-	font-family:dejavu_serifbook;
+	font-family:'Khula', sans-serif;
 	color:white;
-	font-size:9pt;
+	font-size:11pt;
 	right:35px;
 	margin-top:10px;
 	}
@@ -51,13 +51,13 @@ body{
 	text-decoration:underline;
 }
 #main_btn_container p:hover{
-	color:#FC0;
+	color:#88A;
 	cursor:pointer;
 	}
 #Main_Contents{
 	position:absolute;
-	background-color:rgba(29,31,46,0.9);
-	border:solid white thin;
+	background-color:rgba(40,40,40,0.93);
+	border:none;
 	width:31%;
 	min-width:360px;
 	height:85%;
@@ -67,6 +67,7 @@ body{
     transition: width 0.4s ease-in-out;
 	display:block;
 	clear:left;
+	box-shadow:-10px 20px 10px rgba(0,0,0,0.7);
 }
 
 
@@ -84,7 +85,7 @@ body{
 	margin-bottom:60px;
 }
 #home h2{
-	color:#FC0;
+	color:#FFF;
 	text-align:left;
 	margin-left:20px;
 	margin-right:20px;
@@ -120,13 +121,38 @@ li{
 /*About page*/
 #about{
 	position:absolute;
-	border-right:thin solid white !important;
-	width:50%;
+	border-right:none!important;
+	width:100%;
 	height:100%;
 	overflow:auto;
 }
+#aboutBgImage{
+	width:100%;
+	box-shadow:-10px 20px 10px rgba(0,0,0,0.7);
+}
+#dnlBtns {
+	position:fixed;
+	width:38%;
+	right:40px;
+	top:90px;
+	
+}
+
+#dnlBtns p{
+	color:white;
+	font-size:10pt;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	text-align:left;
+	text-indent:-40px;
+	}
+#dnlBtns a:hover{
+	color:#88A;
+	cursor:pointer;
+	
+}
 #about h2{
-	color:#FC0;
+	color:#FFF;
 	text-align:left;
 	margin-left:50px;
 	margin-right:50px;
@@ -136,124 +162,39 @@ li{
 	font-family:Arial, Helvetica, sans-serif;
 	}
 #about p{
-	
+	display:inline-block;
 	margin-left:50px;
 	margin-right:50px;
 	word-spacing:0.06em;
 	margin-bottom:40px !important;
+	width:50%;
 }
 #about a{
 	margin:1px;
 }
 #about a:hover{
-	color:#FC0;
+	color:#88A;
 }
 
-#chrono{
-	position:relative;
-	right:0;
-	width:100%;
-	height:54.9%;
-	border:0;
-	border-bottom:thin solid white;
-	border-left:thin solid white;
-	overflow:hidden;
-	z-index:1;
-	
-	
-}
-#chronoMovie{
-	width:100%;
-	height:100%;
-	}
-#skillsMovie{
-	width:100%;
-	height:100%;
-}
-#skills{
-	position:relative;
-	width:70%;
-	height:50%;
-	border:none;
-	overflow:hidden;
-	z-index:-1;
-	}
-#iframePlace{
-	display:inline-block;
-	position:absolute;
-	right:0;
-	width:50%;
-	height:100%;
-	overflow:hidden;
-}
-#refDnlds{
-	position: absolute;
-	width:25%;
-	min-width:120px;
-	height:40%;
-	right:0;
-	bottom:0;
-	border:thin solid white;
-	border-bottom:none;
-	border-right:none;
-	overflow:auto;
-	
-	}
-#refDnlds p, a{color:white;
-	text-align: center;
-	margin-left:10px;
-	margin-right:10px;
-	margin-top:20px;
-	margin-bottom:30px;
-	font-size:9pt;
-	font-family:Arial, Helvetica, sans-serif;
-	text-decoration:none;
-}
-#refDnlds a:hover{
-	text-decoration:underline;
-	}
+
+
 
 /*Gallery*/
 #galleryContainer{
 	position:absolute;
-	overflow:hidden;
-	right:0;
 	top:0;
-	width:60%;
-	height:100%;
-	border-left:thin solid white;
-	}
-#btnContainer{
+	width:99%;
+	height:90%;
 	
-	position:absolute;
-	width:40%;
-	border-bottom:thin dashed white;
-	color:white;
-	text-align: center;
-	font-size:10pt;
-	font-family:Arial, Helvetica, sans-serif;
-	text-decoration:none;
 	}
-#btnContainer p{
-	display:inline-block;
-	clear:both;
-	margin:10px;
-	margin-top:20px;
-	margin-bottom:20px;
-	}
-.gallery_btn:hover{
-	color:#FC0;
-	cursor:pointer;
-	text-decoration:underline;
-}
+
 #imgInfo{
-	border:thin solid white;
 	position:absolute;
-	width:35%;
-	height:75%;
+	width:90%;
+	height:20%;
 	margin:2.5%;
-	margin-top:100px;
-	overflow:auto;
+	bottom:0;
+	overflow:hidden;
 	
 	}
 #imgInfo p{
@@ -265,30 +206,33 @@ li{
 	line-height:15pt;
 }
 #imgInfo span{
-	color:#FC0;
+	color:#88A;
 	font-size:12pt;
 	font-weight:bold;
 }
-#instructions  {
-	color:#FC0!important;
-	text-decoration:underline;
-	text-align: center !important;
-}
+
 #imageFrame{
 	position:relative;
 	margin:auto;
-	top:20px;
-	width:215px;
-	height:220px;	
+	max-width:100%;
+	max-height:100px;
 	overflow:hidden;
 }
 #polaroidFrame{
 	position:absolute;
-	width:250px;
-	height:300px;
+	max-width:180px;
+	height:auto;
 	box-shadow: 2px 4px 5px rgba(0, 0, 0, .5);
 	transition: transform 0.1s linear;
+	margin:20px;
 }
+#imagens{
+	max-width: 100%;
+    max-height: 100%;
+	webkit-Filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+
 #blackScreen{
 	
 	position:absolute;
