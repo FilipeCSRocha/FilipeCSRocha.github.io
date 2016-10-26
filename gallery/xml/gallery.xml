@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 
 <galleryClass>
+	<image src="../gallery/3D/AltoSol2_thumb.jpg" title="Alto do Sol flyer"/>
+	<image src="../gallery/3D/altoSol1_thumb.jpg" title="Alto do Sol"/>
+	<image src="../gallery/3D/mondego_thumb.jpg" title="Jardins do Mondego Concept"/>
+	<image src="../gallery/3D/mondego2_thumb.jpg" title="Jardins do Mondego Concept"/>
+	<image src="../gallery/3D/riviera02_thumb.jpg" title="Riviera hotel"/>
+	<image src="../gallery/3D/riviera01_thumb.jpg" title="Riviera hotel"/>
+	<image src="../gallery/3D/5_thumb.jpg" title="Optimus Store"/>
+	<image src="../gallery/3D/optimus3_thumb.jpg" title="Optimus Store"/>
+	<image src="../gallery/3D/1_thumb.jpg" title="Bedroom Viz Night"/>
+	<image src="../gallery/3D/2_thumb.jpg" title="Bedroom Viz Day"/>
+	<image src="../gallery/3D/4_thumb.jpg" title="Shine On"/>
 
-	<images2D src="../gallery/2D/1_thumb.jpg" title="Yorkshire Illustration"/>
-	<images2D src="../gallery/2D/2_thumb.jpg" title="Concept Environment"/>
-	<images2D src="../gallery/2D/3_thumb.jpg" title="Photography:The Mantis"/>
-	<images2D src="../gallery/2D/4_thumb.jpg" title="The Night Watch"/>
-	
-	<images3D src="../gallery/3D/1_thumb.jpg" title="Bedroom Viz Night"/>
-	<images3D src="../gallery/3D/2_thumb.jpg" title="Bedroom Viz Day"/>
-	<images3D src="../gallery/3D/4_thumb.jpg" title="Shine On"/>
-	<images3D src="../gallery/3D/5_thumb.jpg" title="Optimus Store"/>
+
 </galleryClass>
