@@ -1,11 +1,3 @@
-﻿<span>Title:</span>
-Bedroom
-</br>
-<span>Sotware:</span>
-3ds Max; V-ray; Photoshop
-</br></br></br>
-
-<span>Description</span></br></br>
-I wanted to create a 3ds Max video tutorial, and this bedroom is the result.</br></br>
-The tutorial was meant to be easy to follow for beginners, I used references of furniture available online
-to explain different modeling techniques.</br></br>
+﻿<span>Title:</span>Bedroom</br>
+<span>Sotware:</span>3ds Max; V-ray; Photoshop</br>
+<span>Year:</span>2016
