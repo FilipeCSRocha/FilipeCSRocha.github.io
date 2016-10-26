@@ -68,7 +68,7 @@ function imageGallery(xml) {
 function sendBack(){
 
 	var x=document.getElementById("galleryContainer").childElementCount;
-	var seenImg=document.getElementById("galleryContainer").childNodes[x-4];
+	var seenImg=document.getElementById("galleryContainer").childNodes[1];
 	seenImg.style.boxShadow="2px 4px 5px rgba(0, 0, 0, .5)";
 	seenImg.style.transform="scale(1,1)";
 	seenImg.style.WebkitTransform="scale(1,1)";
