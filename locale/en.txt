@@ -1,0 +1,99 @@
+#: locale=en
+
+## Action
+
+### URL
+PopupWebFrameBehaviour_CB5E5B46_D56A_902D_41DB_489C60D7234E.url = https://sketchfab.com/models/83b5dc561c9a454aace80c80d87981e2/embed?autospin=1&autostart=1&preload=1&transparent=1&ui_theme=dark
+WebFrame_F27B61D9_D52A_7027_41E9_943635E2CC4E.url = https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1467.3966349842601!2d0.9319710574034465!3d52.069166624481255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2suk!4v1665754642704!5m2!1sen!2suk
+WebFrame_CB121182_D51A_9024_41E9_4664B06CF377.url = https://www.harveyjones.com/our-kitchens/linear-kitchens/dark-grey-linear-kitchen-design
+
+## E-Learning
+
+### Question Screen
+quizQuestion_E6BF2E36_D526_906D_41E1_DC48C5D053C1.ok = OK
+
+### Report Screen
+quizScore_E6B10E37_D526_906B_41E0_A91AB6B813E1.title = - SCORE -
+quizScore_E6B10E37_D526_906B_41E0_A91AB6B813E1.completion = Completed
+quizScore_E6B10E37_D526_906B_41E0_A91AB6B813E1.questionsCorrect = Correct
+quizScore_E6B10E37_D526_906B_41E0_A91AB6B813E1.downloadCSV = Download .csv
+quizScore_E6B10E37_D526_906B_41E0_A91AB6B813E1.questionsIncorrect = Incorrect
+quizScore_E6B10E37_D526_906B_41E0_A91AB6B813E1.items = Items Found
+quizScore_E6B10E37_D526_906B_41E0_A91AB6B813E1.questions = Questions
+quizScore_E6B10E37_D526_906B_41E0_A91AB6B813E1.repeat = Repeat
+quizScore_E6B10E37_D526_906B_41E0_A91AB6B813E1.submitToLMS = Submit
+quizScore_E6B10E37_D526_906B_41E0_A91AB6B813E1.elapsedTime = Time
+
+### Score Name
+score1.label = Score 1
+
+### Timeout Screen
+quizTimeout_E6BCFE36_D526_906D_41E4_A4A4C976F10B.title = - TIMEOUT -
+quizTimeout_E6BCFE36_D526_906D_41E4_A4A4C976F10B.repeat = Repeat
+quizTimeout_E6BCFE36_D526_906D_41E4_A4A4C976F10B.score = View Score
+
+## Hotspot
+
+### Text
+HotspotPanoramaOverlayTextImage_FCFDDF9B_D52A_705B_41DA_A4E247C53143.text = Back Outside
+HotspotPanoramaOverlayTextImage_FCB02C43_D526_702B_41D6_8B54AE32DD25.text = Click on the house to go inside!
+HotspotPanoramaOverlayTextImage_CF53BF8A_D51F_9024_41E6_55209FE8CBBB.text = Click on the screen
+
+## Media
+
+### Floorplan
+
+### Image
+imlevel_F80DBF39_D51A_F067_4198_C63395711899.url = media/map_C9A90CF1_D51A_91E4_41E0_B28D7937D2D1_en_0.jpg
+imlevel_F80DAF39_D51A_F067_41DF_3922CC31A0A0.url = media/map_C9A90CF1_D51A_91E4_41E0_B28D7937D2D1_en_1.jpg
+imlevel_F80D8F39_D51A_F067_41A2_ACC01DD9EC33.url = media/map_C9A90CF1_D51A_91E4_41E0_B28D7937D2D1_en_2.jpg
+imlevel_F80D5F52_D51A_F025_41A1_DB868E9A98C2.url = media/map_F55A3EE2_D5E5_B1E5_41DC_F26B8AA5DADF_en_0.jpg
+imlevel_F80D4F52_D51A_F025_41E3_9A96C76FC5A4.url = media/map_F55A3EE2_D5E5_B1E5_41DC_F26B8AA5DADF_en_1.jpg
+imlevel_F80CBF53_D51A_F02B_41E0_A08C71FDB804.url = media/map_F55A3EE2_D5E5_B1E5_41DC_F26B8AA5DADF_en_2.jpg
+imlevel_CF42A33C_D525_F05C_41EA_0F3CAAA48F8B.url = media/panorama_DE6A3A0D_D179_88FA_4198_81C0B336DE11_HS_ie55qyw1_en.png
+imlevel_FCD12A31_D526_7064_41C0_39F9C0B2BF6B.url = media/panorama_DE6A3A0D_D179_88FA_4198_81C0B336DE11_HS_ujnf6e7r_en.png
+imlevel_FAC430C9_D52A_9027_41E5_D48EEF644F06.url = media/panorama_F1FDE0B4_D57A_906C_41C6_F749B6954898_HS_vdbk609c_en.png
+
+### Title
+video_CFBCFE8D_D525_903C_41E5_96AD6784E2A4.label = Master_SEQ.0001
+map_F55A3EE2_D5E5_B1E5_41DC_F26B8AA5DADF.label = floor-plan-of-a-house-with-a-pool
+map_C9A90CF1_D51A_91E4_41E0_B28D7937D2D1.label = floor-plan-of-a-house-with-a-pool
+panorama_DE6A3A0D_D179_88FA_4198_81C0B336DE11.label = pic_dinningRoom
+panorama_F1FDE0B4_D57A_906C_41C6_F749B6954898.label = qfl0cv2-360-panorama-lombard-street-san-francisco
+panorama_FDC5003B_D53A_7064_41E8_1020294DBDCC.label = tu09tpc-a-large-bed-in-a-room
+
+### Video
+videolevel_F80E8F22_D51A_F065_41B7_3000BCB8751A.url = media/video_CFBCFE8D_D525_903C_41E5_96AD6784E2A4_en.mp4
+videolevel_F80E8F22_D51A_F065_41B7_3000BCB8751A.posterURL = media/video_CFBCFE8D_D525_903C_41E5_96AD6784E2A4_poster_en.jpg
+
+## Skin
+
+### Button
+Button_C017DAE3_D725_B1EB_41D2_27045C31B025.label = MENU
+
+### Image
+Image_C784DAA2_D7ED_9065_41DD_BB99A1A68BF3.url = skin/Image_C784DAA2_D7ED_9065_41DD_BB99A1A68BF3_en.png
+Image_C7B10777_D7E6_70EB_41E5_72CF352B9A7D.url = skin/Image_C7B10777_D7E6_70EB_41E5_72CF352B9A7D_en.png
+Image_C8007CD8_D52F_9024_41D3_3E9940268723.url = skin/Image_C8007CD8_D52F_9024_41D3_3E9940268723_en.jpg
+Image_C90A109B_D388_B91E_41D8_912D11DA9280.url = skin/Image_C90A109B_D388_B91E_41D8_912D11DA9280_en.png
+Image_CD07BA07_D725_902B_41D6_542ECE8B112B.url = skin/Image_CD07BA07_D725_902B_41D6_542ECE8B112B_en.png
+Image_CE7F4478_D378_F91A_41E6_699721F1C6B1.url = skin/Image_CE7F4478_D378_F91A_41E6_699721F1C6B1_en.png
+Image_F422689C_D52E_905C_41E3_3369DFB7E7EC.url = skin/Image_F422689C_D52E_905C_41E3_3369DFB7E7EC_en.png
+Image_F422D89C_D52E_905C_41B7_6337582D9EEE.url = skin/Image_F422D89C_D52E_905C_41B7_6337582D9EEE_en.jpg
+Image_F65BF6D3_D5FD_F02B_41DB_965B148766C5.url = skin/Image_F65BF6D3_D5FD_F02B_41DB_965B148766C5_en.png
+
+### Label
+Label_C6C06609_D1B8_F8FD_41D0_979CE965F594.text = X
+
+### Multiline Text
+HTMLText_C8008CD8_D52F_9024_41E8_FC32208C32D3.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:2.8299999999999996vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#987b55;font-size:2.83vh;font-family:'Antonio';"><B>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. MAECENAS CONGHE EROS MAGNA.</B></SPAN><SPAN STYLE="font-size:1.74vh;"> </SPAN></SPAN></DIV><p STYLE="margin:0; line-height:1.74vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:1.74vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#999999;font-size:1.74vh;font-family:'Open Sans Semibold';">Proin sit amet pharetra magna. Donec varius eu nisi at facilisis. Vivamus nibh magna, fermentum ac nibh sit amet, euismod efficitur sem. Fusce blandit, purus sed gravida vulputate, justo quam laoreet quam, et dictum mauris arcu vitae justo. </SPAN></SPAN></DIV><p STYLE="margin:0; line-height:1.74vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:1.74vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#999999;font-size:1.74vh;font-family:'Open Sans Semibold';">Vivamus euismod condimentum ligula quis feugiat. Cras imperdiet tortor mi, a posuere velit tempus et. Maecenas et scelerisque turpis. Quisque in gravida leo, sed dapibus nibh. Ut at consequat turpis. Curabitur et tempor ex, aliquet interdum quam. Aliquam erat volutpat. </SPAN></SPAN></DIV></div>
+HTMLText_C800CCD8_D52F_9024_41A3_EDD51E8AE075.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:6.199999999999999vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:6.2vh;font-family:'Cinzel Bold';"><B>LOREM</B></SPAN><SPAN STYLE="font-size:6.2vh;font-family:'Otama.ep';"><B>/</B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:10.87vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:10.87vh;font-family:'Cinzel Bold';"><B>IPSUM</B></SPAN></SPAN></DIV></div>
+HTMLText_C8009CD8_D52F_9024_41EA_2F639A964758.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:1.74vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#999999;font-size:1.74vh;font-family:'Open Sans Semibold';">Mauris aliquet neque quis libero consequat vestibulum. Donec lacinia consequat dolor viverra sagittis. Praesent consequat porttitor risus, eu condimentum nunc. Proin et velit ac sapien luctus efficitur egestas ac augue.</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:1.74vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:1.74vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#999999;font-size:1.74vh;font-family:'Open Sans Semibold';">Nunc dictum, augue eget eleifend interdum, quam libero imperdiet lectus, vel scelerisque turpis lectus vel ligula.</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:1.74vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:1.74vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#999999;font-size:1.74vh;font-family:'Open Sans Semibold';">Integer eget pulvinar urna, et tincidunt sem. Suspendisse imperdiet tincidunt risus id mollis. Vivamus suscipit dui sit amet tortor pellentesque, ac laoreet tortor finibus. Nulla maximus urna id sagittis ultricies. Suspendisse in mi sit amet nisi rutrum sodales non eu elit. Integer cursus, odio nec efficitur fermentum.</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:1.74vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:1.74vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#999999;font-size:1.74vh;font-family:'Open Sans Semibold';">Ut sed mattis ipsum. Curabitur blandit hendrerit nisi ac feugiat.</SPAN></SPAN></DIV></div>
+HTMLText_F422989C_D52E_905C_41E8_238597C28B8D.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:5vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ff361b;font-size:5vh;font-family:'Oswald';"><B>______</B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:6.199999999999999vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:6.2vh;font-family:'Oswald';"><B>LOREM IPSUM</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.83vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:2.8299999999999996vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ff361b;font-size:2.83vh;font-family:'Oswald Regular';"><B>Dolor sit amet, consectetur adipiscing elit. Nunc porttitor ac nulla vitae.</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:1.85vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:left;font-size:1.8499999999999999vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.85vh;font-family:'Oswald';"><B>www.loremipsum.com</B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.8499999999999999vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.85vh;font-family:'Oswald';"><B>info@loremipsum.com</B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.8499999999999999vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.85vh;font-family:'Oswald';"><B>Tlf.: +11 111 111 111</B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.8499999999999999vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.85vh;font-family:'Oswald';"><B>Address line 1</B></SPAN></SPAN></DIV><DIV STYLE="text-align:left;font-size:1.8499999999999999vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:1.85vh;font-family:'Oswald';"><B>Address line 2</B></SPAN></SPAN></DIV></div>
+
+## Tour
+
+### Description
+
+### Title
+tour.name = TMVRTest
